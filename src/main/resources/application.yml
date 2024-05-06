@@ -12,7 +12,7 @@ spring:
         format_sql: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${SPRING_DATASOURCE_URL}:3306/formedi_medicine
+    url: jdbc:mysql://${SPRING_DATASOURCE_URL}:3306/formedi_database
     username: admin
     password: ${SPRING_DATASOURCE_PASSWORD}
   profiles:
